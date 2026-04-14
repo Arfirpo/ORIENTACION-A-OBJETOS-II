@@ -19,16 +19,21 @@ public class Twitter {
     }
   }
 
+  public List<Usuario> getUsuarios() {
+    return this.usuarios;
+  }
+
   private boolean usuarioExiste(String screenName) {
     return this.usuarios.stream().anyMatch(u -> u.getScreenName().equals(screenName));
   }
 
-  public void eliminarUsuario(Usuario user) {
-    if (user != null && usuarioExiste(user.getScreenName())) {
-      user.eliminarTweets();
-      this.usuarios.remove(user);
+  public boolean eliminarUsuario(String screenName) {
+    boolean ok = false;
+    if (usuarioExiste(screenName)) {
+      this.usuarios.removeIf(u -> u.getScreenName().equals(screenName));
+      ok = true;
     }
-
+    return ok;
   }
 
 }

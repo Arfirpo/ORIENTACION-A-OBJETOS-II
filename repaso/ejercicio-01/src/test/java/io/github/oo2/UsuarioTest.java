@@ -13,11 +13,16 @@ import org.junit.jupiter.api.Test;
  */
 public class UsuarioTest {
 
-	Usuario james, guido;
+	Usuario james;
+	Tweet tweet;
 
 	@BeforeEach
 	void setUp() throws Exception {
 		james = new Usuario("carlos");
+		james.publicarTweet("hola bola");
+		james.publicarTweet("churro con");
+		tweet = new Tweet("cosa");
+		james.retweetear(tweet);
 	}
 
 	@Test
@@ -30,16 +35,17 @@ public class UsuarioTest {
 
 	@Test
 	public void testEliminarPublicaciones() {
-		james.publicarTweet("hola bola");
-		james.publicarTweet("churro con");
-		Tweet tweet = new Tweet("perro");
-		assertEquals(james.getPublicaciones().size(), 2);
-		james.retweetear(tweet);
+
 		assertEquals(james.getPublicaciones().size(), 3);
-		james.eliminarTweets();
-		assertEquals(james.getPublicaciones().size(), 2);
 		james.eliminarPublicaciones();
 		assertEquals(james.getPublicaciones().size(), 0);
+	}
 
+	@Test
+	public void testEliminarTweets() {
+		assertEquals(james.getTweets().size(), 2);
+		james.eliminarTweets();
+		assertEquals(james.getTweets().size(), 0);
+		assertEquals(james.getPublicaciones().size(), 1);
 	}
 }

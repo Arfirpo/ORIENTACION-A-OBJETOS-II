@@ -2,6 +2,7 @@ package io.github.oo2;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Usuario {
   private String screenName;
@@ -24,6 +25,10 @@ public class Usuario {
     return this.publicaciones;
   }
 
+  public List<Tweet> getTweets(){
+    return this.publicaciones.stream().filter(p -> !p.esRetweet()).map(p -> (Tweet) p).collect(Collectors.toList());
+  }
+
   private boolean cumpleLongitud(String texto) {
     return (texto.length() >= 1 && texto.length() <= 10);
   }
@@ -32,12 +37,8 @@ public class Usuario {
     this.publicaciones.clear();
   }
 
-  public void eliminarTweets() {
-    for (Publicacion publicacion : publicaciones) {
-      if (!publicacion.esRetweet()) {
-        this.publicaciones.remove(publicacion);
-      }
-    }
+  public void eliminarTweets(){
+    this.publicaciones.removeIf(p -> p instanceof Tweet && !p.esRetweet());
   }
 
   public boolean publicarTweet(String texto) {
