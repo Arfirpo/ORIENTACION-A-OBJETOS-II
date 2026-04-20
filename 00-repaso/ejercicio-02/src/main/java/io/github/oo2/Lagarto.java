@@ -1,6 +1,7 @@
-package src.main.java.io.github.oo2;
+package io.github.oo2;
 
 public class Lagarto implements Juego {
+
 
 @Override
 public String jugarContra(Juego juego) {

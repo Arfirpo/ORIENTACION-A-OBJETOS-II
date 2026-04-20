@@ -1,4 +1,4 @@
-package src.main.java.io.github.oo2;
+package io.github.oo2;
 
 public class Papel implements Juego {
 

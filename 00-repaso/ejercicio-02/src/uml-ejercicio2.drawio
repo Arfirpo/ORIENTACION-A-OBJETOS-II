@@ -1,9 +1,183 @@
 <mxfile host="65bd71144e">
     <diagram id="IGerX4VMnSrjVGIQPKn3" name="diagrama de clases">
-        <mxGraphModel dx="1331" dy="371" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1087" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
+                <mxCell id="8" value="&lt;b&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/b&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;Juego&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="80" width="210" height="196" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="+ jugarContra(juego: Juego): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8">
+                    <mxGeometry y="40" width="210" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="+ jugarContraPiedra(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8">
+                    <mxGeometry y="66" width="210" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="+ jugarContraPapel(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8">
+                    <mxGeometry y="92" width="210" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="+ jugarContraTijera(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8">
+                    <mxGeometry y="118" width="210" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="+ jugarContraSpock(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8">
+                    <mxGeometry y="144" width="210" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="+ jugarContraLagarto(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8">
+                    <mxGeometry y="170" width="210" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&lt;b&gt;Class&lt;/b&gt;&lt;div&gt;&lt;b&gt;Lagarto&lt;/b&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="220" width="210" height="196" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="+ jugarContra(juego: Juego): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="16">
+                    <mxGeometry y="40" width="210" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="+ jugarContraPiedra(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="16">
+                    <mxGeometry y="66" width="210" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="+ jugarContraPapel(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="16">
+                    <mxGeometry y="92" width="210" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="+ jugarContraTijera(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="16">
+                    <mxGeometry y="118" width="210" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="+ jugarContraSpock(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="16">
+                    <mxGeometry y="144" width="210" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="+ jugarContraLagarto(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="16">
+                    <mxGeometry y="170" width="210" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="&lt;b&gt;Class&lt;/b&gt;&lt;div&gt;&lt;b&gt;Spock&lt;/b&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="460" width="210" height="196" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="+ jugarContra(juego: Juego): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="23">
+                    <mxGeometry y="40" width="210" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="+ jugarContraPiedra(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="23">
+                    <mxGeometry y="66" width="210" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="+ jugarContraPapel(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="23">
+                    <mxGeometry y="92" width="210" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="+ jugarContraTijera(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="23">
+                    <mxGeometry y="118" width="210" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="+ jugarContraSpock(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="23">
+                    <mxGeometry y="144" width="210" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="+ jugarContraLagarto(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="23">
+                    <mxGeometry y="170" width="210" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="&lt;b&gt;Class&lt;/b&gt;&lt;div&gt;&lt;b&gt;Piedra&lt;/b&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="660" y="460" width="210" height="196" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="+ jugarContra(juego: Juego): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="30">
+                    <mxGeometry y="40" width="210" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="+ jugarContraPiedra(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="30">
+                    <mxGeometry y="66" width="210" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="+ jugarContraPapel(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="30">
+                    <mxGeometry y="92" width="210" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="+ jugarContraTijera(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="30">
+                    <mxGeometry y="118" width="210" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="+ jugarContraSpock(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="30">
+                    <mxGeometry y="144" width="210" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="+ jugarContraLagarto(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="30">
+                    <mxGeometry y="170" width="210" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="&lt;b&gt;Class&lt;/b&gt;&lt;div&gt;&lt;b&gt;Papel&lt;/b&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="780" y="220" width="210" height="196" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="+ jugarContra(juego: Juego): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="37">
+                    <mxGeometry y="40" width="210" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="+ jugarContraPiedra(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="37">
+                    <mxGeometry y="66" width="210" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="+ jugarContraPapel(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="37">
+                    <mxGeometry y="92" width="210" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="+ jugarContraTijera(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="37">
+                    <mxGeometry y="118" width="210" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="+ jugarContraSpock(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="37">
+                    <mxGeometry y="144" width="210" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="+ jugarContraLagarto(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="37">
+                    <mxGeometry y="170" width="210" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="&lt;b&gt;Class&lt;/b&gt;&lt;div&gt;&lt;b&gt;Tijera&lt;/b&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="414" y="460" width="210" height="196" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="+ jugarContra(juego: Juego): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="44">
+                    <mxGeometry y="40" width="210" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="+ jugarContraPiedra(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="44">
+                    <mxGeometry y="66" width="210" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="+ jugarContraPapel(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="44">
+                    <mxGeometry y="92" width="210" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="+ jugarContraTijera(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="44">
+                    <mxGeometry y="118" width="210" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="+ jugarContraSpock(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="44">
+                    <mxGeometry y="144" width="210" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="+ jugarContraLagarto(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="44">
+                    <mxGeometry y="170" width="210" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0.467;exitY=0.005;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.005;entryY=-0.077;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="16" target="10">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="160" y="160" as="sourcePoint"/>
+                        <mxPoint x="320" y="160" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="178" y="144"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="52" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0.467;exitY=0.005;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.09;entryY=1.115;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="15">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="290" y="460" as="sourcePoint"/>
+                        <mxPoint x="513" y="383" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="330" y="420"/>
+                            <mxPoint x="420" y="410"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="53" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0.467;exitY=0.005;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.571;entryY=1.192;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="15">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="520" y="460" as="sourcePoint"/>
+                        <mxPoint x="743" y="383" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="520" y="383"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="54" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0.467;exitY=-0.015;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="30">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="208" y="251" as="sourcePoint"/>
+                        <mxPoint x="590" y="280" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="760" y="380"/>
+                            <mxPoint x="590" y="380"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="55" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0.533;exitY=-0.01;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.014;entryY=0.115;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="37" target="10">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="218" y="261" as="sourcePoint"/>
+                        <mxPoint x="441" y="184" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="890" y="150"/>
+                            <mxPoint x="720" y="150"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>

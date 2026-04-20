@@ -1,4 +1,4 @@
-package src.main.java.io.github.oo2;
+package io.github.oo2;
 
 public interface Juego {
 
@@ -9,3 +9,6 @@ public interface Juego {
 	public String jugarContraLagarto();
 	public String jugarContraSpock();
 }
+
+
+

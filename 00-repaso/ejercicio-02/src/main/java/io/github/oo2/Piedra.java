@@ -1,4 +1,4 @@
-package src.main.java.io.github.oo2;
+package io.github.oo2;
 
 public class Piedra implements Juego {
 
@@ -24,7 +24,7 @@ public class Piedra implements Juego {
 
 	@Override
 	public String jugarContraLagarto() {
-		return "gana piedra";
+		return "gana Piedra";
 	}
 
 	@Override
