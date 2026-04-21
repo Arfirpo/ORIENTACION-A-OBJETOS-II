@@ -1,5 +1,6 @@
 {
 	"java.project.sourcePaths": [
 		"00-repaso/ejercicio-02"
-	]
+	],
+	"java.configuration.updateBuildConfiguration": "interactive"
 }
